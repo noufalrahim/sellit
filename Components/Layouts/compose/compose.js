@@ -2,7 +2,6 @@ import { Fragment, useRef, useState } from "react";
 import styles from "./compose.module.css"
 import Head from "next/head";
 import { useSession } from "next-auth/react";
-import solid from "../../../Assets/solid.png"
 function Compose(props) {
     const nameInputRef = useRef();
     const descInputRef = useRef();
