@@ -1,0 +1,71 @@
+.flex{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    width: 40%;
+    height: 100vh;
+}
+.right{
+    width: 60%;
+    height: 100vh;
+}
+.contrast{
+    width: 55%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 22.5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.details{
+    margin-left: 5%;
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 5%;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.price{
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.desc{
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 1% 3%;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.btnLink{
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex{
+        display: contents;
+    }
+    .left{
+        width: auto;
+        height: auto;
+    }
+    .right{
+        width: auto;
+        height: 50vh;
+    }
+  }

@@ -1,0 +1,70 @@
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1%;
+}
+
+.card{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.rounded{
+    border-radius: 100%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.left{
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+}
+.right{
+    width: 60%;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 2% 3%;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.height{
+    height: 75vh;
+}
+
+.mainHead{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex{
+        display: contents;
+    }
+    .left{
+        width: auto;
+        height: auto;
+    }
+    .right{
+        width: auto;
+        height: 50vh;
+    }
+}
