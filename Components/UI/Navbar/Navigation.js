@@ -17,6 +17,7 @@ function Navigation(props) {
                 </label>
                 <label className="logo">SELL IT</label>
                 <ul>
+                    <li><Link className="active link-1" href={"/"}>HOME</Link></li>
                     <li><Link className="active link-1" href={"/compose-post"}>SELL</Link></li>
                     {session ?
                         session.user.image !== "" ? <li><Link href={"/profile"}><img src={session.user.image} className={styles.img} /></Link></li>
