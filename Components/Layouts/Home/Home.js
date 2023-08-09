@@ -6,7 +6,7 @@ const { Fragment } = require("react");
 function Home(props){
     return(
         <Fragment>
-            <h1 className={styles.title}>SELL WITH US</h1>
+            <h1 className={styles.title}>BUY WITH US</h1>
             <Card products = {props.products}/>
         </Fragment>
     )
