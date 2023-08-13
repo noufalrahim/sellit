@@ -93,20 +93,20 @@ function Compose(props) {
                 <div className={styles.flex}>
                     <div className={styles.left}>
                         <div className={styles.content}>
-                            <h1 className={styles.heading}>Sell</h1>
+                            <h1 className={styles.heading}>Sell With Us</h1>
                             <h5 className={styles.subheading}>Details</h5>
-                            <div className={`form-floating mb-3`}>
+                            <div className={`form-floating mb-3 ${styles.mb3}`}>
                                 <input type="text" className="form-control" ref={nameInputRef} id="floatingInput" placeholder="name@example.com" />
                                 <label htmlFor="floatingInput">Product Name</label>
                                 {(!nameIsValid) && <p className={styles.invalid}>Please enter your product name with more than 4 characters.</p>}
                             </div>
-                            <div className="mb-3">
+                            <div className={`mb-3 ${styles.mb3}`}>
                                 <label htmlFor="exampleInputdesc" className="form-label">Description</label>
                                 <textarea type="text" rows={"5"} ref={descInputRef} className="form-control" id="exampleInputdesc" />
                                 {(!descIsValid) &&<p className={styles.invalid}>Please enter your product description with more than 4 characters.</p>}
                             </div>
                             <label className="form-label">Price</label>
-                            <div className="input-group mb-3">
+                            <div className={`input-group mb-3 ${styles.mb3}`}>
                                 <span className="input-group-text">₹</span>
                                 <input type="number" className="form-control" ref={priceInputRef} aria-label="Amount (to the nearest dollar)" />
                             </div>

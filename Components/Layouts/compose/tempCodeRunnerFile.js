@@ -1,0 +1,1 @@
+accept=".jpg, .png, .jpeg" onChange={event => ImageHandler1(event)} 
